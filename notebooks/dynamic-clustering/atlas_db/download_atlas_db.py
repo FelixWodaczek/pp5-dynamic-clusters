@@ -36,7 +36,7 @@ def run_jobs(job_list):
 
 if __name__ == "__main__":
     # Load the list of pdb ids
-    atlas_file_list = pd.read_csv("./data/ATLAS.csv")
+    atlas_file_list = pd.read_csv("./ATLAS.csv")
     jobs = []
     for pdb_id in atlas_file_list["PDB"].tolist():
         pdb_id_name = pdb_id.lower()

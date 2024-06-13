@@ -8,3 +8,7 @@ out_paper/
 
 # Ignore everything by default, we'll explicitly add notebooks when needed
 *.ipynb
+
+# custom data directories
+/dynamic-clustering/data-sources/*
+/dynamic-clustering/data/
